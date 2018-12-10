@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background_smartpot"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:background="#ddffffff"
+        android:textStyle="bold"
+        android:text="@string/title_label" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:background="#ddffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User001"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listPots"
+        android:background="#ddffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

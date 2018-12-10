@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/iconAutomation"
+        android:icon="@drawable/ic_automation"
+        android:title="Automation"
+        app:showAsAction="ifRoom" >
+
+        <menu>
+
+            <!--<item-->
+                <!--android:id="@+id/nowWater"-->
+                <!--android:title="Smart Water" />-->
+
+            <item android:id="@+id/autoWater"
+                android:title="Auto-water"/>
+
+            <item
+                android:id="@+id/manualWater"
+                android:title="Manual-water" />
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

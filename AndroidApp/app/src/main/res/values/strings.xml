@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AssignmentIoT</string>
+    <string name="title_label">Smart Pot</string>
+    <string name="date_label">Up-to-date</string>
+    <string name="status_label">Status</string>
+    <string name="humid_label">Humidity</string>
+    <string name="plant_label">Plant</string>
+    <string name="long_dummy_text">Your plants are drying out, water them to keep them healthy! </string>
+</resources>
